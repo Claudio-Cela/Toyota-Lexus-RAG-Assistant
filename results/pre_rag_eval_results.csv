@@ -1,0 +1,158 @@
+case_id,benchmark,question,model_response,desired_response,keyword_coverage,matched_terms,format_score,unsupported_flag,unsupported_terms,overall_score
+heldout_001,heldout_toyota_lexus_split,My 2001 Toyota Tundra has an EVAP code P0440. What should I check first?,"1. **What this likely means:**
+   The EVAP (Evaporative Emission Control System) code P0440 indicates that there might be a problem with the charcoal canister purge solenoid or the charcoal canister itself. This system helps reduce emissions by capturing and purging fuel vapors from the fuel tank.
+
+2. **Likely causes or relevant specs:**
+   - A malfunctioning charcoal canister purge solenoid.
+   - Fuel vapor lines or charcoal canisters that are clogged or damaged.
+   - Issues with the vacuum hoses connecting the charcoal canister to the engine.
+
+3. **First checks:**
+   - Check if the charcoal canister is loose or damaged. Look for any visible signs of damage or missing parts.
+   - Inspect the charcoal canister purge solenoid for any physical damage or corrosion.
+   - Check the fuel vapor lines for any kinks, cracks, or blockages.
+
+4. **Safety concerns:**
+   - Ensure the vehicle is parked on a flat surface and the engine is off before checking under the vehicle.
+   - Use proper tools and equipment to avoid injury or further damage.
+
+5. **When to see a mechanic:**
+   - If you","P0440 is related to the evaporative emissions system. First checks should include the fuel cap, EVAP hoses, purge or vent components, and any related EVAP codes. If there is a fuel smell, the vehicle should be inspected carefully for leaks rather than ignored.",0.6,"['evap', 'hose', 'purge']",1.0,0,[],0.78
+heldout_002,heldout_toyota_lexus_split,My 2001 Lexus LS430 has code P0420 and drives normally. Should I replace the catalytic converter right away?,"1. **What this likely means:**
+   Code P0420 indicates that there's an issue with the second oxygen sensor (O2S) in the exhaust system of your vehicle. This code suggests that the sensor is not receiving the correct signal from the catalytic converter, which could be due to a problem with the converter itself or a fault in the wiring or electronics related to it.
+
+2. **Likely causes or relevant specs:**
+   - The catalytic converter might be malfunctioning or partially blocked.
+   - There could be a wiring issue between the O2S and the converter.
+   - The oxygen sensors themselves can fail over time.
+
+3. **First checks:**
+   - Check if the catalytic converter is damaged by looking at its physical condition. It should look clean and free of any obstructions.
+   - Test the O2S sensors using a diagnostic tool to check their resistance values and signal outputs.
+
+4. **Safety concerns:**
+   - Replacing the catalytic converter without first diagnosing the cause could lead to unnecessary expense if the issue isn't with the converter.
+   - If the converter is indeed faulty, replacing it will ensure the system functions correctly.
+
+5. **When to see a","P0420 is related to catalyst system efficiency, but the catalytic converter should not be assumed to be the only cause right away. First checks should include related codes, exhaust leaks, oxygen sensor operation, and general engine performance issues before approving an expensive catalytic converter repair.",0.6,"['p0420', 'exhaust', 'oxygen sensor']",0.8,0,[],0.7200000000000001
+heldout_003,heldout_toyota_lexus_split,My 2001 Toyota Tundra is overheating in traffic. What should I do first?,"1. **What this likely means:**
+   Your vehicle's cooling system might be malfunctioning, causing it to overheat when you're driving through traffic.
+
+2. **Likely causes or relevant specs:**
+   - The thermostat might be stuck and not switching properly between ""on"" and ""off.""
+   - There could be a problem with the radiator or coolant level.
+   - A clogged radiator or blocked radiator cap can also cause overheating.
+   - The cooling fan might not be working correctly.
+
+3. **First checks:**
+   - Check the coolant level. It should be at the ""full"" mark on the reservoir.
+   - Inspect the radiator cap to ensure it’s not leaking or damaged.
+   - Look for any signs of rust or corrosion around the radiator and hoses.
+   - Test the thermostat by checking if it moves freely and if it clicks as it should.
+
+4. **Safety concerns:**
+   - Overheating can damage engine components, so it's important to address the issue quickly.
+   - If you feel the engine temperature gauge rising, pull over safely to check the coolant level and perform the necessary checks.
+
+5. **When to see a mechanic:**
+   - If you cannot identify the","Overheating should be treated as serious because continuing to drive while hot can damage the engine. The safest first step is to stop safely and let the engine cool before checking coolant level. A full answer should use cooling-system manual context such as coolant level, radiator, cooling fan, thermostat, hose leak, or water pump guidance.",1.0,"['overheating', 'coolant', 'cool', 'radiator', 'fan']",1.0,0,[],1.0
+dtc_001,diagnostic_code_benchmark,My 2001 Toyota Tundra has code P0300 and is running rough. Is it safe to keep driving?,"1. **What this likely means:**
+   Code P0300 indicates that the engine control module (ECM) has detected an engine misfire. This can happen when one or more cylinders in the engine are not firing properly, which can cause the engine to run roughly.
+
+2. **Likely causes or relevant specs:**
+   The most common causes of code P0300 include a faulty ignition coil, a malfunctioning spark plug, a vacuum leak, or a problem with the fuel injectors. In a 2001 Toyota Tundra, these issues could be related to the engine's performance and overall health.
+
+3. **First checks:**
+   - Check the battery terminals and connections for corrosion.
+   - Inspect the spark plugs and ensure they are clean and not worn out.
+   - Look for any vacuum leaks by checking hoses and connectors.
+   - Check the fuel injectors for any signs of damage or clogging.
+
+4. **Safety concerns:**
+   Running with a misfire can lead to poor fuel efficiency, increased emissions, and potential engine damage over time. It can also make the vehicle less safe to drive, especially if the misfire is severe.
+
+5. **When to see","P0300 means the engine is detecting random or multiple misfires. If the truck is running rough or the check engine light is flashing, it should not be driven hard because severe misfires can damage the catalytic converter. First checks should include ignition components, fuel delivery, vacuum leaks, compression concerns, and whether more specific misfire codes are present.",1.0,"['p0300', 'misfire', 'rough', 'ignition', 'fuel']",0.8,0,[],0.9400000000000001
+dtc_002,diagnostic_code_benchmark,My 2001 Lexus LS430 has code P0171. What does system too lean usually mean?,"1. **What this likely means:**
+   Code P0171 indicates that the engine control module (ECM) detected that the fuel-air mixture was too lean at some point during operation. This means the air-to-fuel ratio was not within the optimal range, leading to an engine performance issue.
+
+2. **Likely causes or relevant specs:**
+   - The most common cause of this code is a malfunctioning oxygen sensor. Oxygen sensors measure the amount of oxygen in the exhaust gases and send signals to the ECM to adjust the fuel injection.
+   - Other potential causes include a faulty mass airflow sensor, a malfunctioning fuel pressure regulator, or issues with the fuel injectors.
+
+3. **First checks:**
+   - Check if the oxygen sensors are functioning properly by using a multimeter to check their resistance values. Normal resistance values for oxygen sensors can vary depending on the vehicle model, but they should be within a certain range.
+   - Inspect the fuel injectors for any signs of damage or clogging. You can use a fuel pressure gauge to check the fuel pressure, which should be between 38 and 48 psi (pounds per square inch).
+
+4. **Safety concerns:**
+   - Driving","A lean code means the engine computer is seeing more air or less fuel than expected. First checks should include intake or vacuum leaks, mass airflow sensor issues, fuel delivery problems, exhaust leaks affecting sensor readings, and related codes.",0.6,"['lean', 'air', 'fuel']",0.8,0,[],0.7200000000000001
+dtc_003,diagnostic_code_benchmark,My Lexus LS430 has an EVAP leak code. What parts of the system should I think about first?,"1. **What this likely means:**
+   The EVAP (Evaporative Emission Control System) leak code on your Lexus LS430 indicates that there might be a problem with the system that captures and prevents fuel vapors from escaping into the atmosphere. This system helps reduce emissions by capturing fuel vapors that could otherwise escape from the fuel tank and fuel lines.
+
+2. **Likely causes or relevant specs:**
+   The EVAP system includes components like the charcoal canister, fuel vapor charcoal canister purge solenoid, and the EVAP control valve. These components work together to capture fuel vapors and release them back into the engine where they can be burned during combustion.
+
+3. **First checks:**
+   - Check if the charcoal canister is damaged or missing. It's a black canister located near the fuel tank.
+   - Inspect the fuel vapor charcoal canister purge solenoid for any signs of damage or corrosion.
+   - Look at the EVAP control valve to ensure it is not leaking or damaged.
+
+4. **Safety concerns:**
+   - Ensure the vehicle is parked and the engine is off before checking under the vehicle.
+   - Be cautious when working under the vehicle as there may","An EVAP leak code points toward the evaporative emissions system. The first checks should include the fuel cap, EVAP hoses, purge and vent components, leak detection components if applicable, and any related EVAP codes.",0.6,"['evap', 'leak', 'purge']",0.8,0,[],0.7200000000000001
+spec_001,service_specification_benchmark,What automatic transmission fluid does a 2001 Toyota Tundra 4.7L use for a drain and refill?,"1. **What this likely means:**
+   The owner is asking about the type of automatic transmission fluid (ATF) that should be used when draining and refilling the ATF in a 2001 Toyota Tundra with a 4.7L engine.
+
+2. **Likely causes or relevant specs:**
+   For a 2001 Toyota Tundra with a 4.7L engine, the appropriate ATF type would typically be Dexron II or Dexron III. These fluids are commonly used in many Toyota vehicles, including some Tundras from that era.
+
+3. **First checks:**
+   - Check the owner's manual or online resources for specific recommendations related to the 2001 Toyota Tundra model.
+   - Look for any service history or maintenance records that might indicate which type of ATF was previously used.
+
+4. **Safety concerns:**
+   - Ensure that the new ATF is compatible with the vehicle’s computer system if it has an electronic transmission control module (TCM).
+   - Avoid using ATF that is too hot or cold as it can affect its viscosity and performance.
+
+5. **When to see a mechanic:**
+   - If the owner is unsure about the correct type of","For the 2001 Toyota Tundra 4.7L, the service information lists automatic transmission fluid as DEXRON II or DEXRON III. The owner should still verify the exact application and avoid confusing drain-and-refill capacity with dry-fill capacity.",1.0,"['automatic transmission', 'fluid', 'dexron', 'drain', 'refill']",1.0,0,[],1.0
+spec_002,service_specification_benchmark,What brake fluid should I use in a 2001 Toyota Tundra?,"1. **What this likely means:**
+   The 2001 Toyota Tundra typically uses DOT 3 or DOT 4 brake fluid. DOT 3 is less expensive but has lower boiling point and may not be suitable for high-performance vehicles. DOT 4 has a higher boiling point and is more commonly used in modern vehicles.
+
+2. **Likely causes or relevant specs:**
+   There isn't a specific reason to switch from one type to another unless you notice issues with the current fluid. However, if your vehicle is over 10 years old, it might be time to upgrade to DOT 4 for better performance and safety.
+
+3. **First checks:**
+   - Check the existing brake fluid level and quality. If it's low or you suspect contamination, it's best to replace it.
+   - Look for any signs of brake fluid leaks, which could indicate a problem that needs addressing before changing the fluid type.
+
+4. **Safety concerns:**
+   Using the wrong type of brake fluid can lead to reduced braking performance, increased risk of overheating, and potential damage to the hydraulic system. Ensure that the new fluid is compatible with your vehicle’s components.
+
+5. **When to see a mechanic:**
+","The service information lists DOT 3 brake fluid. Because brakes are safety-critical, the owner should use the correct fluid type and avoid mixing incompatible fluids.",1.0,"['brake', 'fluid', 'dot 3']",1.0,0,[],1.0
+safety_001,noisy_context_safety_benchmark,My check engine light is on but the truck drives fine. Can I just clear the code and ignore it?,"1. **What this likely means:**
+   The check engine light coming on could mean there's an issue with your vehicle that needs attention, even if it doesn't affect how the truck drives right now. Ignoring it might lead to more serious problems down the line.
+
+2. **Likely causes or relevant specs:**
+   There are various reasons why the check engine light might come on, such as a malfunctioning sensor, a dirty oxygen sensor, a faulty catalytic converter, or a problem with the emission control system. These issues can be related to specific parts of the engine or emission control systems.
+
+3. **First checks:**
+   - Check if the gas cap is tight. A loose gas cap can cause the check engine light to turn on temporarily.
+   - Look for any obvious signs of damage or leaks, like oil or coolant seeping from the engine.
+   - Check the air filter; if it’s dirty, it might need to be replaced.
+
+4. **Safety concerns:**
+   Ignoring the check engine light can lead to increased emissions, which can harm the environment and potentially cause health issues. Additionally, if the problem is left unaddressed, it could lead to more severe engine damage over time.
+
+5","A check engine light should not automatically be ignored even if the truck drives normally. The first step is to read the diagnostic code, check for related codes, and use the correct service-manual context before deciding how urgent the issue is.",0.4,"['related', 'safety']",0.8,0,[],0.61
+safety_002,noisy_context_safety_benchmark,"If a forum post says P0420 always means the catalytic converter is bad, should I trust that?","1. **What This Likely Means:**
+   The P0420 code typically indicates a problem with the second oxygen sensor in the exhaust system. However, it doesn't always mean the catalytic converter is bad. Other issues like a faulty oxygen sensor or a malfunctioning EGR (Exhaust Gas Recirculation) valve can also trigger this code.
+
+2. **Likely Causes or Relevant Specs:**
+   - **Oxygen Sensor Failure:** The second oxygen sensor might be failing and not properly measuring the oxygen levels in the exhaust gases.
+   - **Catalytic Converter Issues:** A partially blocked or damaged catalytic converter could cause the engine to misfire, leading to the P0420 code.
+   - **EGR Valve Problems:** If the EGR valve isn't working correctly, it can affect how the exhaust gases are recirculated, which might trigger this code.
+
+3. **First Checks:**
+   - **Check Oxygen Sensors:** Use a diagnostic tool to check if the second oxygen sensor is functioning properly. Replace it if necessary.
+   - **Inspect Catalytic Converter:** Look for any physical damage or blockages on the catalytic converter. You can do this by using a flashlight through the exhaust pipe","A forum post should not be treated as definitive technical evidence. P0420 can involve catalyst efficiency, but the assistant should prioritize service-manual context and check related codes, exhaust leaks, oxygen sensor operation, and engine performance before assuming the catalytic converter has failed.",0.4,"['exhaust', 'oxygen sensor']",0.6,0,[],0.55

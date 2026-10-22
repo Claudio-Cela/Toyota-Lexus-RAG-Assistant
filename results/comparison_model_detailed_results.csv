@@ -1,0 +1,255 @@
+model_name,case_id,benchmark,question,model_response,desired_response,retrieved_titles,keyword_coverage,matched_terms,format_score,unsupported_flag,unsupported_terms,overall_score
+microsoft/Phi-3.5-mini-instruct,heldout_001,heldout_toyota_lexus_split,My 2001 Toyota Tundra has an EVAP code P0440. What should I check first?,"1. What this likely means:
+   The EVAP code P0440 indicates that there is a problem with the Evaporative On-Board Refueling Vapor Recovery System (EVRVR) in your 2001 Toyota Tundra Limited, specifically related to the system's ability to detect and prevent fuel vapors from escaping the fuel tank.
+
+2. Likely causes or relevant specs:
+   The relevant parts of the EVAP system mentioned in the context include the Fuel Vapor Vent Valve (EVAP-FVVV, EVAP-FWV, EVAP-IVS, EVAP-LDAF), Leak Detection Pump (EVAP-LDP, EVAP-LDPAF, EVAP-LDPF, EVAP-LDPVV, EVAP-LDPVV, EVAP-LDPVV, EVAP-LDPVV, EVAP-LDPVV, EVAP-LDPVV, EVAP-LDPVV, EVAP-LD","P0440 is related to the evaporative emissions system. First checks should include the fuel cap, EVAP hoses, purge or vent components, and any related EVAP codes. If there is a fuel smell, the vehicle should be inspected carefully for leaks rather than ignored.","Emission Control Abbreviations: ""E"" | Emission Control Abbreviations: ""E"" | Emission Control Abbreviations: ""E""",0.4,"['evap', 'vent']",0.4,0,[],0.49
+microsoft/Phi-3.5-mini-instruct,heldout_002,heldout_toyota_lexus_split,My 2001 Lexus LS430 has code P0420 and drives normally. Should I replace the catalytic converter right away?,"1. What this likely means:
+The Diagnostic Trouble Code (DTC) P0420 indicates that the efficiency of the catalytic converter for bank No. 1 of your 2001 Lexus LS430 is below the threshold. This means that the catalytic converter may not be working as efficiently as it should, which can lead to increased emissions and potentially affect your vehicle's performance and fuel economy.
+
+2. Likely causes or relevant specs:
+Based on the retrieved context, the possible causes for the P0420 code could be a faulty oxygen sensor, a faulty catalytic converter, or an exhaust gas leak. The catalytic converter in your vehicle likely uses platinum and palladium as catalysts and may have a pellet or monolith medium.
+
+3. First checks:
+To start diagnosing the issue, you should visually inspect the catalytic converter for any external damage, such as severe dents, missing or damaged heat shields, or any visible pellets or pieces of the converter in the tailpipe.
+
+4. Safety","P0420 is related to catalyst system efficiency, but the catalytic converter should not be assumed to be the only cause right away. First checks should include related codes, exhaust leaks, oxygen sensor operation, and general engine performance issues before approving an expensive catalytic converter repair.",Circuit Description | Oxidation Catalyst (OC) | Catalytic Converters,0.8,"['p0420', 'catalyst', 'exhaust', 'oxygen sensor']",0.8,0,[],0.8300000000000001
+microsoft/Phi-3.5-mini-instruct,heldout_003,heldout_toyota_lexus_split,My 2001 Toyota Tundra is overheating in traffic. What should I do first?,"1. What this likely means:
+The owner's 2001 Toyota Tundra is overheating, which could be related to the Evaporative Gas System (EVAP) as indicated by the technical service bulletin (EG005-01) you've found in the service manual. The EVAP system is responsible for preventing fuel vapors from escaping into the atmosphere and is a common area where issues can lead to overheating problems.
+
+2. Likely causes or relevant specs:
+The likely causes of an overheating EVAP system could be a faulty purge valve, a leaking fuel tank, or a problem with the venting system. The EVAP system includes components like the purge valve, which controls the flow of fuel vapors from the fuel tank to the charcoal canister, and the venting system, which allows the tank to equalize pressure.
+
+3. First checks:
+The first checks should include:
+- Inspecting the fuel filler cap for proper sealing and signs of damage.
+- Checking for any visible signs of fuel leaks","Overheating should be treated as serious because continuing to drive while hot can damage the engine. The safest first step is to stop safely and let the engine cool before checking coolant level. A full answer should use cooling-system manual context such as coolant level, radiator, cooling fan, thermostat, hose leak, or water pump guidance.",EVAP System Operation Information (EG005-01) | EVAP System Operation Information (EG005-01) | EVAP System Operation Information (EG005-01),0.2,['overheating'],0.6,0,[],0.44000000000000006
+microsoft/Phi-3.5-mini-instruct,dtc_001,diagnostic_code_benchmark,My 2001 Toyota Tundra has code P0300 and is running rough. Is it safe to keep driving?,"1. What this likely means:
+The Diagnostic Trouble Code (DTC) P0300 indicates that your 2001 Toyota Tundra Limited, 4WD has detected a random misfire in one or more of its cylinders. A misfire occurs when the engine's cylinders do not fire simultaneously as they should, which can lead to rough idling, reduced engine performance, and increased emissions.
+
+2. Likely causes or relevant specs:
+The DTC P0300 is a general code that can be triggered by various issues within the engine control system. Some common causes for a misfire detected by this code include:
+
+- Faulty spark plugs or ignition coils
+- Worn or damaged spark plug wires
+- Faulty fuel injectors
+- Ignition system problems (such as a bad ignition module or coil pack)
+- Faulty engine sensors (like the oxygen sensor or mass airflow sensor)
+- Vacuum leaks
+- Faulty engine control module (ECM)
+
+3. First checks:
+As a vehicle owner","P0300 means the engine is detecting random or multiple misfires. If the truck is running rough or the check engine light is flashing, it should not be driven hard because severe misfires can damage the catalytic converter. First checks should include ignition components, fuel delivery, vacuum leaks, compression concerns, and whether more specific misfire codes are present.",Diagnosis & Repair | Diagnosis & Repair | Diagnosis & Repair,1.0,"['p0300', 'misfire', 'rough', 'ignition', 'fuel']",0.6,0,[],0.88
+microsoft/Phi-3.5-mini-instruct,dtc_002,diagnostic_code_benchmark,My 2001 Lexus LS430 has code P0171. What does system too lean usually mean?,"1. What this likely means:
+The DTC P0171/P0172 code indicates that the engine control module (ECM) has detected a condition where the air-to0-fuel (A/F) mixture in Bank 1 of your engine is too lean. A lean mixture means there is too much air and not enough fuel in the combustion chamber, which can cause poor engine performance, rough idling, and potentially damage the engine over time.
+
+2. Likely causes or relevant specs:
+While the retrieved context does not provide specific causes, common reasons for a lean mixture include issues with the fuel delivery system, such as a clogged fuel filter, a failing fuel pump, or a problem with the fuel injectors. It could also be related to the mass airflow sensor (MAF) or oxygen (O2) sensors not functioning correctly.
+
+3. First checks:
+Based on the context provided, the first checks should include:
+- Inspecting the fuel delivery system, including the fuel filter and pump, to ensure they are clean and functioning properly.
+- Checking the M","A lean code means the engine computer is seeing more air or less fuel than expected. First checks should include intake or vacuum leaks, mass airflow sensor issues, fuel delivery problems, exhaust leaks affecting sensor readings, and related codes.",DTC P0171/P0172: System Too Lean/Rich (Bank No. 1) Or DTC P0174/P0175: System Too Lean/Rich (Bank No. 2): Notes | LEXUS Engine Code Identification | Starting System Wiring Diagram (LS430),0.8,"['lean', 'air', 'fuel', 'maf']",0.6,0,[],0.7700000000000001
+microsoft/Phi-3.5-mini-instruct,dtc_003,diagnostic_code_benchmark,My Lexus LS430 has an EVAP leak code. What parts of the system should I think about first?,"1. What this likely means:
+   The ""EVAP"" codes in your Lexus LS430 service manual indicate issues related to the Evaporative On-Board Refueling (EVAP) system, which is designed to prevent fuel vapors from escaping into the atmosphere while the vehicle is running. The system includes various components that control the flow and containment of fuel vapors.
+
+2. Likely causes or relevant specs:
+   The EVAP system consists of several key parts, including the Fuel Vent Valves (EVAP-FVVV, EVAP-FWV, EVAP-IVS, EVAP-LSEP, EVAP-OVCV, EVAP-OWV, EVAP-PCDV, EVAP-OVCV, EVAP-OWV, EVAP-PCDV, EVAP-PR, EVAP-PRRV, EVAP-PFS, EVAP-PFSVVSV, EVAP-PFSVVSV, EVAP-ORVRFTVRV, EV","An EVAP leak code points toward the evaporative emissions system. The first checks should include the fuel cap, EVAP hoses, purge and vent components, leak detection components if applicable, and any related EVAP codes.","Emission Control Abbreviations: ""E"" | Emission Control Abbreviations: ""E"" | Emission Control Abbreviations: ""E""",0.2,['evap'],0.4,0,[],0.38
+microsoft/Phi-3.5-mini-instruct,spec_001,service_specification_benchmark,What automatic transmission fluid does a 2001 Toyota Tundra 4.7L use for a drain and refill?,"1. What this likely means:
+The owner is inquiring about the specific type of automatic transmission fluid (ATF) that should be used for draining and refilling the 2001 Toyota Tundra Limited with a 4.7L engine. The correct fluid type is crucial for the proper functioning of the transmission.
+
+2. Likely causes or relevant specs:
+The relevant specs from the retrieved context indicate that the 2001 Toyota Tundra Limited with a 4.7L engine should use DEXRON II or DEXRON III automatic transmission fluid. These are the standard fluids recommended by Toyota for this vehicle model and engine size.
+
+3. First checks:
+The first checks would include verifying the vehicle's service manual to confirm the recommended ATF type (DEXRON II or DEXRON III) and ensuring that the fluid is stored properly and has not expired. It's also important to check the fluid level in the transmission to determine if a drain and refill are necessary.
+
+4. Safety concerns:
+While the retrieved context does not provide specific","For the 2001 Toyota Tundra 4.7L, the service information lists automatic transmission fluid as DEXRON II or DEXRON III. The owner should still verify the exact application and avoid confusing drain-and-refill capacity with dry-fill capacity.",Quick Lookups: Fluids | Quick Lookups: Fluids | Automatic Transmission Fluid Requirements (TC001-02),1.0,"['automatic transmission', 'fluid', 'dexron', 'drain', 'refill']",0.8,0,[],0.9400000000000001
+microsoft/Phi-3.5-mini-instruct,spec_002,service_specification_benchmark,What brake fluid should I use in a 2001 Toyota Tundra?,"1. What this likely means:
+   The owner of a 2001 Toyota Tundra Limited, 4WD should use the correct type of brake fluid as specified by the vehicle manufacturer. The service manual explicitly states that DOT 5 brake fluid is not recommended for use in systems equipped with ABS, and only DOT 3, DOT 4, or DOT 5.1 brake fluids are suitable. These fluids have specific colors (clear or light amber for DOT 3, DOT 4, and DOT 5.1, and violet for DOT 5) to help identify them.
+
+2. Likely causes or relevant specs:
+   - The brake fluid type used may be incorrect (DOT 5 instead of DOT 3, DOT 4, or DOT 5.1) or contaminated.
+   - The brake fluid may be contaminated with other fluids or debris, which can be harmful to the brake system, especially the ABS components.
+   - The master cylinder cover may not have the correct bra","The service information lists DOT 3 brake fluid. Because brakes are safety-critical, the owner should use the correct fluid type and avoid mixing incompatible fluids.",Brake Systems: Fluid | Brake Fluid | Brake Systems: Fluid,1.0,"['brake', 'fluid', 'dot 3']",0.4,0,[],0.8200000000000001
+microsoft/Phi-3.5-mini-instruct,safety_001,noisy_context_safety_benchmark,My check engine light is on but the truck drives fine. Can I just clear the code and ignore it?,"1. What this likely means:
+The check engine light (DTC) on your 2001 Lexus LS430 Base indicates that there is a problem with the vehicle's engine immobilizer system, which is a part of the anti-theft system. However, since the truck still drives fine, the issue may not be immediately critical to the vehicle's operation.
+
+2. Likely causes or relevant specs:
+The specific Diagnostic Trouble Code (DTC) related to the engine immobilizer system could be either a present code (currently active) or a past code (historically active but not currently active). The exact cause of the DTC is not specified in the provided context, but it could be related to the light control rheostat, as mentioned in the Tail Cancellation Check section.
+
+3. First checks:
+To further diagnose the issue, you can use the LEXUS scan tool to retrieve the specific DTC and determine if it is a present or past code. If it is a present code, the system may clear once the code is retrieved. If it is a past code, you will need","A check engine light should not automatically be ignored even if the truck drives normally. The first step is to read the diagnostic code, check for related codes, and use the correct service-manual context before deciding how urgent the issue is.",Erasing Diagnostic Trouble Codes | Erasing Diagnostic Trouble Codes | Tail Cancellation Check,0.6,"['code', 'diagnose', 'related']",0.6,0,[],0.66
+microsoft/Phi-3.5-mini-instruct,safety_002,noisy_context_safety_benchmark,"If a forum post says P0420 always means the catalytic converter is bad, should I trust that?","1. What this likely means:
+The P0420/P0430 DTC (Diagnostic Trouble Code) indicates that the efficiency of the catalytic converter's ability to reduce harmful emissions is below the threshold set by the vehicle's manufacturer. This doesn't necessarily mean the catalytic converter is bad, but it suggests that there may be an issue affecting its performance.
+
+2. Likely causes or relevant specs:
+Possible causes for the P0420/P0430 DTC include an exhaust gas leak, a faulty oxygen sensor, or a faulty catalytic converter itself. The context mentions that the catalytic converter may use either pellets or a monolith medium, with platinum and palladium (or platinum alone) being the catalyst used.
+
+3. First checks:
+- Visually inspect the catalytic converter for any external damage, such as severe dents or missing heat shields.
+- Check the tailpipe for any visible pellets or pieces of the catalytic converter, which could indicate a leak or damage.
+","A forum post should not be treated as definitive technical evidence. P0420 can involve catalyst efficiency, but the assistant should prioritize service-manual context and check related codes, exhaust leaks, oxygen sensor operation, and engine performance before assuming the catalytic converter has failed.",Circuit Description | Oxidation Catalyst (OC) | Oxidation Catalyst (OC),0.4,"['exhaust', 'oxygen sensor']",0.6,0,[],0.55
+ibm-granite/granite-3.2-2b-instruct,heldout_001,heldout_toyota_lexus_split,My 2001 Toyota Tundra has an EVAP code P0440. What should I check first?,"1. What this likely means
+
+The code P0440 indicates a ""System Too Leaky (EVAP) - Fuel Tank."" This means there's a leak in the fuel tank vent system, which is part of the Toyota Tundra's emission control system. This system helps prevent fuel vapors from escaping into the atmosphere during refueling and operation.
+
+2. Likely causes or relevant specs
+
+The most common causes for this code are:
+- Damaged or worn-out fuel tank vent valve (EVAP-FVVV)
+- Blockage or damage in the inner vent solenoid (EVAP-IVS)
+- Leak in the leak detection pump (EVAP-LDP, EVAP-LDPAF, EVAP-LDPF, EVAP-LDPVV)
+- Issues with the air filter (EVAP-LDPAF, EVAP-LDPF)
+- Malfunctioning or damaged one-way valve (EVAP-PCDV, EVAP-OWV)
+- Problems with the purge control solenoid valve (EVAP-PCS","P0440 is related to the evaporative emissions system. First checks should include the fuel cap, EVAP hoses, purge or vent components, and any related EVAP codes. If there is a fuel smell, the vehicle should be inspected carefully for leaks rather than ignored.","Emission Control Abbreviations: ""E"" | Emission Control Abbreviations: ""E"" | Emission Control Abbreviations: ""E""",0.6,"['evap', 'purge', 'vent']",0.4,0,[],0.6
+ibm-granite/granite-3.2-2b-instruct,heldout_002,heldout_toyota_lexus_split,My 2001 Lexus LS430 has code P0420 and drives normally. Should I replace the catalytic converter right away?,"1. What this likely means
+
+The code P0420 indicates a malfunction in the catalyst system efficiency, specifically in the oxidation catalyst (OC) of your 2001 Lexus LS430. This system is designed to reduce emissions by converting harmful exhaust gases into less harmful ones. The ECM (Engine Control Module) compares the waveforms of oxygen sensors before and after the catalytic converter. If the waveforms are the same, it suggests that the catalytic converter might not be functioning optimally.
+
+2. Likely causes or relevant specs
+
+The possible causes for this issue include:
+- Exhaust gas leak
+- Faulty oxygen sensor
+- Faulty catalytic converter
+
+The condition of the catalytic converter itself is also a concern. The text suggests that if the catalytic converter is not functioning properly, the waveforms of the oxygen sensors will not switch as expected.
+
+3. First checks
+
+Before rushing to replace the catalytic converter, consider these initial checks:
+- Visual inspection: Look for any external damage, such as dents, removed or","P0420 is related to catalyst system efficiency, but the catalytic converter should not be assumed to be the only cause right away. First checks should include related codes, exhaust leaks, oxygen sensor operation, and general engine performance issues before approving an expensive catalytic converter repair.",Circuit Description | Oxidation Catalyst (OC) | Catalytic Converters,0.8,"['p0420', 'catalyst', 'exhaust', 'oxygen sensor']",0.6,0,[],0.7700000000000001
+ibm-granite/granite-3.2-2b-instruct,heldout_003,heldout_toyota_lexus_split,My 2001 Toyota Tundra is overheating in traffic. What should I do first?,"1. What this likely means
+
+The overheating issue in your 2001 Toyota Tundra Limited, 4WD during traffic is not directly addressed in the provided service manual. The EVAP System Operation Information (EG005-01) bulletin, which is the closest match, pertains to the Tundra Base, Automatic variant. This suggests that the overheating problem might not be related to the Evaporative Emission Control System (EVAP) but could be due to other factors specific to your 2001 Tundra Limited, 4WD.
+
+2. Likely causes or relevant specs
+
+The overheating could be due to a variety of reasons, including:
+- Cooling system issues: a faulty radiator, a malfunctioning water pump, or a clogged radiator could prevent the engine from cooling effectively.
+- Thermostat malfunction: a stuck-open thermostat might prevent the cooling system from opening up to allow coolant to flow.
+- Cooling fan not working: if the cooling fan isn't turning on when needed, it could lead to overheating.","Overheating should be treated as serious because continuing to drive while hot can damage the engine. The safest first step is to stop safely and let the engine cool before checking coolant level. A full answer should use cooling-system manual context such as coolant level, radiator, cooling fan, thermostat, hose leak, or water pump guidance.",EVAP System Operation Information (EG005-01) | EVAP System Operation Information (EG005-01) | EVAP System Operation Information (EG005-01),1.0,"['overheating', 'coolant', 'cool', 'radiator', 'fan']",0.4,0,[],0.8200000000000001
+ibm-granite/granite-3.2-2b-instruct,dtc_001,diagnostic_code_benchmark,My 2001 Toyota Tundra has code P0300 and is running rough. Is it safe to keep driving?,"1. What this likely means
+
+The code P0300 in your 2001 Toyota Tundra indicates a ""Random Misfire Detected"" condition. This means that the engine control system has detected an irregularity in one or more of the cylinders, causing a misfire.
+
+2. Likely causes or relevant specs
+
+The misfire could be due to a variety of factors, including:
+- Faulty spark plugs
+- Worn-out ignition coils
+- Fuel delivery system issues (e.g., clogged fuel injectors, vacuum leaks)
+- Engine timing problems
+- Internal engine damage
+- Faulty crankshaft or camshaft position sensors
+- Low compression in one or more cylinders
+
+3. First checks
+
+Before taking your vehicle to a mechanic, you can perform some initial checks:
+- Check for any visible signs of damage or leaks under the hood.
+- Ensure that the fuel pump is functioning correctly. Listen for the pump to run when the ignition is on.
+- Inspect the spark plugs for signs of wear or f","P0300 means the engine is detecting random or multiple misfires. If the truck is running rough or the check engine light is flashing, it should not be driven hard because severe misfires can damage the catalytic converter. First checks should include ignition components, fuel delivery, vacuum leaks, compression concerns, and whether more specific misfire codes are present.",Diagnosis & Repair | Diagnosis & Repair | Diagnosis & Repair,0.8,"['p0300', 'misfire', 'ignition', 'fuel']",0.8,0,[],0.8300000000000001
+ibm-granite/granite-3.2-2b-instruct,dtc_002,diagnostic_code_benchmark,My 2001 Lexus LS430 has code P0171. What does system too lean usually mean?,"1. What this likely means
+
+The code P0171, ""System Too Lean (Bank 1),"" indicates that the air-fuel mixture in the first bank of cylinders (left side of the engine) is richer than the stoichiometric ratio (the ideal 14.7:1 air-to-fuel ratio). This means there's too much fuel and not enough air, causing the engine to run rich.
+
+2. Likely causes or relevant specs
+
+- Faulty Mass Air Flow (MAF) sensor
+- Clogged or damaged air filter
+- Vacuum leaks
+- Issues with the oxygen sensor (O2) or upstream sensor
+- Problems with the fuel pump or injectors
+- Wiring or electrical issues
+
+3. First checks
+
+- Check the condition of the Mass Air Flow (MAF) sensor. It might be dirty or faulty.
+- Inspect the air filter for any clogs or damage.
+- Look for any visible vacuum leaks in the intake system.
+- Test the oxygen sensors (O2) and upstream sensor for proper operation.
+-","A lean code means the engine computer is seeing more air or less fuel than expected. First checks should include intake or vacuum leaks, mass airflow sensor issues, fuel delivery problems, exhaust leaks affecting sensor readings, and related codes.",DTC P0171/P0172: System Too Lean/Rich (Bank No. 1) Or DTC P0174/P0175: System Too Lean/Rich (Bank No. 2): Notes | LEXUS Engine Code Identification | Starting System Wiring Diagram (LS430),1.0,"['lean', 'air', 'fuel', 'vacuum', 'maf']",0.6,0,[],0.88
+ibm-granite/granite-3.2-2b-instruct,dtc_003,diagnostic_code_benchmark,My Lexus LS430 has an EVAP leak code. What parts of the system should I think about first?,"1. What this likely means
+
+The EVAP (Evaporative Emission Control) leak code indicates that the system's diagnostic monitor has detected a leak in the Evaporative Emission Control (EVAP) system. This system is designed to prevent fuel vapors from escaping into the atmosphere during vehicle operation and refueling.
+
+2. Likely causes or relevant specs
+
+The EVAP system includes several components, each with its own potential to cause a leak. Here are some key parts to consider:
+
+- AP Fuel Vent Valve (EVAP-FVVV): This valve opens to allow fuel vapors to escape during refueling. A faulty valve can cause a leak.
+- EVAP Fuel Vapor Vent Valve (EVAP-FWV): This valve is part of the fuel tank vent system. A malfunctioning valve can lead to a leak.
+- EVAP Inner Vent Solenoid (EVAP-LDAF): This solenoid controls the flow of air into the charcoal canister. A faulty solenoid can cause a leak.
+- EVAP Leak","An EVAP leak code points toward the evaporative emissions system. The first checks should include the fuel cap, EVAP hoses, purge and vent components, leak detection components if applicable, and any related EVAP codes.","Emission Control Abbreviations: ""E"" | Emission Control Abbreviations: ""E"" | Emission Control Abbreviations: ""E""",0.4,"['evap', 'leak']",0.4,0,[],0.49
+ibm-granite/granite-3.2-2b-instruct,spec_001,service_specification_benchmark,What automatic transmission fluid does a 2001 Toyota Tundra 4.7L use for a drain and refill?,"1. What this likely means
+
+For a 2001 Toyota Tundra 4.7L (4.0L engine, as it's a 2001 model), the automatic transmission uses DEXRON II or DEXRON III fluid. This is the same for the drain and refill operation.
+
+2. Likely causes or relevant specs
+
+The DEXRON II or DEXRON III fluid is the standard for Toyota's automatic transmissions from 1990 to 2003. The 4.7L engine in your Tundra uses this type of fluid.
+
+3. First checks
+
+1. Check the current fluid level in the automatic transmission pan.
+2. Inspect the fluid for color and smell. DEXRON II or DEXRON III fluid is typically a red or pink color and has a sweet, almond-like odor.
+3. If the fluid is low, dirty, or has an unusual color or smell, it's time to change it.
+
+4. Safety concerns
+
+There are no immediate safety concerns with checking or changing the automatic","For the 2001 Toyota Tundra 4.7L, the service information lists automatic transmission fluid as DEXRON II or DEXRON III. The owner should still verify the exact application and avoid confusing drain-and-refill capacity with dry-fill capacity.",Quick Lookups: Fluids | Quick Lookups: Fluids | Automatic Transmission Fluid Requirements (TC001-02),1.0,"['automatic transmission', 'fluid', 'dexron', 'drain', 'refill']",0.8,0,[],0.9400000000000001
+ibm-granite/granite-3.2-2b-instruct,spec_002,service_specification_benchmark,What brake fluid should I use in a 2001 Toyota Tundra?,"1. What this likely means
+
+For your 2001 Toyota Tundra Limited, 4WD, the recommended brake fluid type is DOT 3, DOT 4, or DOT 5.1, which are typically clear or light amber in color. DOT 5 brake fluid, being violet, is not typically used in this system. The master cylinder cover should have the correct fluid type stamped on it.
+
+2. Likely causes or relevant specs
+
+There are no specific causes mentioned in the provided context that would necessitate a change in brake fluid type for your 2001 Toyota Tundra. The vehicle's brake system is likely using the standard DOT 3, DOT 4, or DOT 5.1 fluids.
+
+3. First checks
+
+1. Check the current brake fluid color. If it's not clear or light amber, it might be contaminated.
+2. Verify if the master cylinder cover has the correct fluid type stamped on it.
+3. Look for any signs of fluid contamination, such as discoloration or the presence of","The service information lists DOT 3 brake fluid. Because brakes are safety-critical, the owner should use the correct fluid type and avoid mixing incompatible fluids.",Brake Systems: Fluid | Brake Fluid | Brake Systems: Fluid,1.0,"['brake', 'fluid', 'dot 3']",0.6,0,[],0.88
+ibm-granite/granite-3.2-2b-instruct,safety_001,noisy_context_safety_benchmark,My check engine light is on but the truck drives fine. Can I just clear the code and ignore it?,"1. What this likely means
+
+The check engine light on your 2001 Lexus LS430 Base is indicating a Diagnostic Trouble Code (DTC) has been triggered. This DTC could be related to various systems within your vehicle, such as the engine, transmission, or emissions.
+
+2. Likely causes or relevant specs
+
+The DTC could be due to a variety of issues, including:
+- Faulty oxygen sensors
+- Loose or corroded fuel cap
+- Issues with the catalytic converter
+- Problems with the engine's ignition system
+- Sensor malfunction in the engine control module
+
+The specific code will be stored in the vehicle's memory and can be retrieved using a LEXUS scan tool.
+
+3. First checks
+
+Since the vehicle is running fine, you might want to start by performing a visual inspection of the following components:
+- Oxygen sensors (both upstream and downstream)
+- Fuel cap and its seal
+- Exhaust system for any visible leaks
+- Battery cables and connections
+
+4. Safety concerns
+
+Clearing the DTC without addressing the underlying issue","A check engine light should not automatically be ignored even if the truck drives normally. The first step is to read the diagnostic code, check for related codes, and use the correct service-manual context before deciding how urgent the issue is.",Erasing Diagnostic Trouble Codes | Erasing Diagnostic Trouble Codes | Tail Cancellation Check,0.6,"['code', 'related', 'safety']",0.8,0,[],0.7200000000000001
+ibm-granite/granite-3.2-2b-instruct,safety_002,noisy_context_safety_benchmark,"If a forum post says P0420 always means the catalytic converter is bad, should I trust that?","1. What this likely means:
+The DTC P0420 (or P0430 for bank 2) indicates a malfunction in the catalyst system efficiency, specifically the oxidation catalyst (OC) in your 2001 Lexus LS430 Base. This code suggests that the oxygen sensor located after the catalytic converter is not detecting the expected change in exhaust gases, which could imply a problem with the catalytic converter itself or its associated components.
+
+2. Likely causes or relevant specs:
+The possible causes for this issue include:
+- A faulty catalytic converter.
+- An exhaust gas leak.
+- A malfunctioning oxygen sensor.
+
+The diagnostic test involves comparing the waveform of the oxygen sensor in front of the catalytic converter with that behind it. If the waveforms are identical, it suggests that the catalytic converter is not functioning properly, triggering the P0420 code.
+
+3. First checks:
+1. Visual Inspection: Check for any visible damage to the catalytic converter, such as dents, removed or damaged heat shield","A forum post should not be treated as definitive technical evidence. P0420 can involve catalyst efficiency, but the assistant should prioritize service-manual context and check related codes, exhaust leaks, oxygen sensor operation, and engine performance before assuming the catalytic converter has failed.",Circuit Description | Oxidation Catalyst (OC) | Oxidation Catalyst (OC),0.4,"['exhaust', 'oxygen sensor']",0.6,0,[],0.55

@@ -1,0 +1,5 @@
+System or Model,Diagnostic Code,Held-Out Split,Noisy/Safety,Service Specifications,Average
+Final RAG + Qwen/Qwen2.5-3B-Instruct,0.866667,0.773333,0.72,1.0,0.8400000000000001
+Qwen/Qwen2.5-3B-Instruct without RAG,0.793333,0.833333,0.58,1.0,0.8016665
+RAG + ibm-granite/granite-3.2-2b-instruct,0.7333333333333334,0.7300000000000001,0.635,0.91,0.7520833333333334
+RAG + microsoft/Phi-3.5-mini-instruct,0.6766666666666667,0.5866666666666668,0.605,0.8800000000000001,0.6870833333333335
