@@ -1,0 +1,10 @@
+accelerate
+beautifulsoup4
+bitsandbytes
+huggingface_hub
+numpy
+pandas
+scikit-learn
+sentence-transformers
+torch
+transformers>=4.37.0
